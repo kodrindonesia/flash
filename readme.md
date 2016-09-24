@@ -1,4 +1,4 @@
-# Laravel Starter Boilerplate
+# Flash - A starter applciation for your MVP Product
 Not ready for production.
 
 ## Contact
