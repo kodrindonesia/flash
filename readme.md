@@ -1,4 +1,4 @@
-# Flash - A starter applciation for your MVP Product
+# Flash - A starter application for your MVP Product
 Not ready for production.
 
 ## Contact
