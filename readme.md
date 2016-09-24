@@ -1,4 +1,5 @@
 # Flash - A starter application for your MVP Product
+![alt img] (https://travis-ci.org/kodrindonesia/flash.svg?branch=master)
 Not ready for production.
 
 ## Contact
