@@ -14,12 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-<<<<<<< HEAD
-        $this->middleware('auth');
-=======
-        parent::__construct();
         // $this->middleware('auth');
->>>>>>> 55dd024... [FEATURES] Install AdminLTE as base admin theme
     }
 
     /**
@@ -29,15 +24,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-<<<<<<< HEAD
-        return view('home');
-=======
-        // $theme = Theme::uses('admin')->layout('default');
+        $theme = \Theme::uses('bolt')->layout('default');
         $view = array(
             'name' => 'Kodr Indonesia'
         );
 
-        return $this->theme->of('home.index', $view)->render();
->>>>>>> 55dd024... [FEATURES] Install AdminLTE as base admin theme
+        return $theme->of('home',$view)->render();
     }
 }

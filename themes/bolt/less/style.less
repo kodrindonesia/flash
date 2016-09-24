@@ -1,0 +1,135 @@
+/**
+ * Style for Bolt Theme
+ * 
+ * @author 	 Sandi Andrian <sandi@kodrindonesia.com>
+ * @package  Flash
+ * @link     https://github.com/kodrindonesia.com/flash
+ **/
+
+* {
+	font-family: 'Avenir Next LT Pro Regular', sans-serif;
+}
+
+
+a {
+	color: #fff !important;
+}
+
+/**
+ * Header 
+ **/
+.header {
+	background: transparent url('../img/bg-header.png') no-repeat;
+	min-height: 454px;
+	background-size: cover;
+	padding-top: 70px;
+
+	.navbar {
+		
+		.container {
+			border-bottom: 1px solid #fff;
+			padding: 0 0 10px 0;
+		}
+
+		.navbar-brand {
+			padding-top: 0;
+			height: 74px;
+			font-family: 'Avenir Next LT Pro Demi', sans-serif;
+			font-weight: 300;
+			font-size: 24px;
+
+			span.logo {
+				display: inline-block;
+				margin-right: 10px;
+
+				img {
+					background: #FFF;
+					padding: 10px 15px;
+				}
+			}
+
+			span.text {
+				position: relative;
+			    top: 5px;
+			}
+		}
+
+		#navbar {
+			padding-top: 20px;
+
+			.navbar-nav {
+				li {
+					padding-top: 2px;
+
+					a {
+						padding: 10px 20px;
+						margin-right: 10px;
+					}
+
+					a:hover, a:focus, a:visited {
+						background-color: rgba(255,255,255,0.1);
+						border-radius: 20px;
+					}
+
+					a.order-now {
+						background: #fff;
+						color: #9013FE !important;
+						color: #FFF;
+						border-radius: 30px;
+						padding: 10px 30px;
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.hero-unit {
+		padding-top: 20px;
+		@media (max-width: 767px) {
+			padding-top: 40px;
+		}
+		color: #FFF;
+
+		h1 {
+			font-size: 34px;
+		    line-height: 44px;
+		    margin-top: 0;
+		    margin-bottom: 0;
+		}
+
+		h3 {
+			margin-top: 0;
+			font-size: 22px;
+		}
+
+		p {
+			margin-top: 20px;
+		}
+
+		.content {
+			padding-top: 30px;
+
+			p.description {
+				font-size: 14px;
+				line-height: 24px;
+			}
+
+			.btn-primary {
+				background: transparent;
+				border: 1px solid #FFF;
+				border-radius: 20px;
+				font-size: 12px;
+				line-height: 12px;
+				padding: 10px 20px;
+			}
+		}
+	}
+}
+
+/**
+ * Content
+ **/
+.content {
+  padding: 40px 15px;
+}

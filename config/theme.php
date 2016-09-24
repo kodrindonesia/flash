@@ -14,7 +14,7 @@ return array(
 	|
 	*/
 
-	'assetUrl' => env('APP_ASSET_URL', './'),
+	'assetUrl' => env('APP_URL', '/'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -150,20 +150,20 @@ return array(
 
 		    // This is laravel alias to allow in twig compiler
 		    // The list all of methods is at /app/config/app.php
-		    'hooks' => $serializer->serialize(function($twig)
-		    {
-		        // Example add funciton name "demo".
-		        /*$function = new Twig_SimpleFunction('example', function()
-		        {
-		            $args = func_get_args();
+		    // 'hooks' => $serializer->serialize(function($twig)
+		    // {
+		    //     // Example add function name "demo".
+		    //     $function = new Twig_SimpleFunction('example', function()
+		    //     {
+		    //         $args = func_get_args();
 
-		            return "Example" . print_r($args, true);
-		        });
+		    //         return "Example" . print_r($args, true);
+		    //     });
 
-		        $twig->addFunction($function);*/
+		    //     $twig->addFunction($function);
 
-		        return $twig;
-		    })
+		    //     return $twig;
+		    // })
 		)
 
 	)

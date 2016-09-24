@@ -35,6 +35,16 @@ require __DIR__.'/bootstrap/autoload.php';
 
 $app = require_once __DIR__.'/bootstrap/app.php';
 
+/**
+ * change public theme 
+ * 
+ * @author 		Sandi Andrian <sandi@kodrindonesia.com>
+ * @since 		Sep 24, 2016
+ **/
+$app->bind('path.public', function() {
+    return __DIR__;
+});
+
 /*
 |--------------------------------------------------------------------------
 | Run The Application
